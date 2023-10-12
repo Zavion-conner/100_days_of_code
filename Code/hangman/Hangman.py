@@ -7,7 +7,7 @@ lives = 6
 from hangmanwrd import logo
 print(logo)
 word_length = len(chosen_word)
-print(f"the word is {chosen_word}")
+# print(f"the word is {chosen_word}") for testing and debugging
 display = []
 for letter in chosen_word:
     display += "_"
